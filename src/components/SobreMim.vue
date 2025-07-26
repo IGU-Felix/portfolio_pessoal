@@ -134,7 +134,7 @@
       </div>
     </div>
 
-    <form class="contato-formulario fade-in-on-scroll" data-animate-on-scroll @submit.prevent="enviarFormulario">
+    <!-- <form class="contato-formulario fade-in-on-scroll" data-animate-on-scroll @submit.prevent="enviarFormulario">
       <div class="input-linha fade-in-on-scroll" data-animate-on-scroll>
         <input type="text" placeholder="Nome" v-model="form.nome" required />
         <input type="text" placeholder="Sobrenome" v-model="form.sobrenome" />
@@ -147,7 +147,7 @@
       <p v-if="mensagemFeedback" :class="{ 'mensagem-sucesso': formEnviado, 'mensagem-erro': erroEnvio }">
         {{ mensagemFeedback }}
       </p>
-    </form>
+    </form> -->
   </section>
 </template>
 
