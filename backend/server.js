@@ -11,7 +11,7 @@ const port = process.env.PORT || 3000; // A porta do seu servidor, 3000 por padr
 // Middleware
 app.use(express.json()); // Permite que o Express leia JSON no corpo das requisições
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173' // Permitir requisições apenas do seu front-end (ajuste a porta se for diferente do padrão do Vite)
+  origin: process.env.FRONTEND_URL || 'https://portfolio-igor-felix.vercel.app/' // Permitir requisições apenas do seu front-end (ajuste a porta se for diferente do padrão do Vite)
 }));
 
 // Configuração do transporter de e-mail com variáveis de ambiente
